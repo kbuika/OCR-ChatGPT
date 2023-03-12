@@ -6,7 +6,7 @@
 } */
 
 .App {
-  max-width: fit-content;
+  /* max-width: fit-content; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -15,7 +15,7 @@
 }
 
 img {
-  max-width: 100%;
+  max-width: 80%;
 }
 
 .card {
