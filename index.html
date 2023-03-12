@@ -13,5 +13,17 @@
       src="https://widget.cloudinary.com/v2.0/global/all.js"
       type="text/javascript"
     ></script>
+    <script>
+      const host = window.location.hostname;
+      if(host === 'localhost') {
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-WHMP761K09");
+      }
+    </script>
   </body>
 </html>

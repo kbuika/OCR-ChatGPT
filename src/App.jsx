@@ -14,7 +14,6 @@ function App() {
   const recognize = () => {
     Tesseract.recognize(`${image}`, "eng", {
       logger: (m) => {
-        // console.log(m);
         setStatus(m);
       },
     }).then(({ data: { text } }) => {

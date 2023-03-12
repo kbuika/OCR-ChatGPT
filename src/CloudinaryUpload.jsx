@@ -35,7 +35,6 @@ class CloudinaryUploadWidget extends Component {
           //   .getElementById("uploadedimage")
           //   .setAttribute("src", result.info.secure_url);
           myWidget.close();
-          console.log(result.info.secure_url);
 
           this.props.setImage(result.info.secure_url);
         }
