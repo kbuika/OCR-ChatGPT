@@ -1,4 +1,6 @@
-<div style="text-align: center; font-weight: 600; margin-bottom: 2em">OCR-GPT [Live site](https://app.tusomeni.com) [![Netlify Status](https://api.netlify.com/api/v1/badges/b51b7e37-7b52-4b74-9306-3ddf851a3ec7/deploy-status)](https://app.netlify.com/sites/dreamy-youtiao-6e4860/deploys)</div><hr />
+<h1 style="text-align: center; font-weight: 600;">OCR-GPT </h1>
+<div style="text-align: center;"><a href="https://app.tusomeni.com">Live site</a></div>
+<hr />
 
 An implementation of an OCR to get questions from an image and queries them on GPT-3.5 turbo
 
