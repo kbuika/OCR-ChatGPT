@@ -2,8 +2,8 @@ import React, { Component } from "react";
 
 class CloudinaryUploadWidget extends Component {
   componentDidMount() {
-    const cloudName = "vbrnce"; // replace with your own cloud name
-    const uploadPreset = "uau8r1ev"; // replace with your own upload preset
+    const cloudName = import.meta.env.VITE_CLOUDINARY_CLOUD_NAME; // replace with your own cloud name
+    const uploadPreset = import.meta.env.VITE_CLOUDINARY_CLOUD_PRESET; // replace with your own upload preset
 
     // Remove the comments from the code below to add
     // additional functionality.

@@ -31,7 +31,7 @@ function App() {
     let config = {
       method: "post",
       maxBodyLength: Infinity,
-      url: `${import.meta.env.VITE_API_URL}/api/v1/past_papers/gpt`,
+      url: `${import.meta.env.VITE_API_URL}/api/v1/past_papers/gpt`, // the GPT-3.5 turbo API
       headers: {
         "Content-Type": "application/json",
         "Access-Control-Allow-Origin": "*",
